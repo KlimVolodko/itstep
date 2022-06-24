@@ -1,0 +1,11 @@
+.cl-gray{
+    color: gray;
+    font-size: 30px;
+    word-spacing: 6px;
+    letter-spacing: 4px;
+    line-height: 60px;
+}
+ins+span{
+    text-decoration: overline;
+
+}
