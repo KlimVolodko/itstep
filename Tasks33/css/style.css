@@ -2,6 +2,21 @@ p{
     font-size: 14px;
     font-weight: 400;
 }
-.clgreen{
-    color: #0f0;
+.clgreen{ color: rgb(8, 177, 8);}
+ul{
+    list-style-type: square;
 }
+.clblue { color: blue;}
+.clorng { color: orange;}
+.clred { color: rgb(255, 60, 0);}
+.clyel{ color: yellow;}
+
+h1{
+    font-size: 32px;
+    font-weight: 700;
+}
+h2{
+    font-size: 24px;
+    font-style: oblique;
+}
+body{ text-align: justify; font: ;}
