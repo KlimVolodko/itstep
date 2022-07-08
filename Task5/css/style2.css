@@ -3,10 +3,35 @@ table{
     border-collapse: collapse;
 }
 td{
-    width: 100px;
-    height: 100px;
-    text-align: center;
+    height: 50px;
     vertical-align: middle;
-    font-size: 50px;
-    border: 1px solid #000;
+    border: 2px solid #fff;
+    color: rgb(0, 0, 0);
+ /*   border-bottom-width: 0px; */
+}
+th{
+    color: #fff;
+    background: #1a39a1;
+    height: 50px;
+    vertical-align: middle;
+    border: 2px solid #fff;
+    border-bottom-width: 6px;
+}
+tr:nth-child(2n+2) td{
+    background: #748fe7;
+}
+tr:nth-child(2n+3) td{
+    background: #c6b3df;
+}
+tr td:nth-child(1){
+    width: 80px;
+    text-align: center;
+}
+tr td:nth-child(2){
+    width: 200px;
+    text-align: left;
+}
+tr td:nth-child(n+3){
+    width: 100px;
+    text-align: center;
 }
