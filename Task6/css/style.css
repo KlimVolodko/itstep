@@ -1,23 +1,43 @@
+body {
+    width: 1000px;
+    margin: 0 auto;
+}
 h1{
-    width: 400px;
     height: 100px;
     font-size: 24px;
     color: rgb(175, 25, 25);
-    margin-left: 5%;
-    
+    margin-left: 10%;
+       
 }
+.menu{
+    border:solid;
+    width: 300px;
+}
+
+/*ul{
+    list-style-image: url(./img/ctrelka.png);
+}*/
+ul {
+    list-style-image: url("../../media/examples/rocket.svg");
+    
+  }
 .block{
     position: sticky;
     top: 10px;
 }
 #text{
-    background: #d2d7e7;
+    background: #e3e7f5;
 } 
 .clgreen{ color: #25a30b;}
 .clred{ color: #f00;}
 .clgreen2{ color: #5f9669;}
-
+pre{
+    padding: 1em;
+    background-color: #f8f9fa;
+    color: #000;
+    border: solid;
+    width: 400px;
+}
 p{
-            font-size: 24px;
-        font-style: sans-serif;    
+    font-family: Georgia, 'Times New Roman', Times, sans-serif;   
 }

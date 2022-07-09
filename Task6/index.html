@@ -8,12 +8,7 @@
    <title>JavaScript</title>
    <link rel="stylesheet" href="css/normalize.css">
    <link rel="stylesheet" href="css/style.css">
-   <style>
-      ul {
-    list-style-image: url(./img/ctrelka.png);
-   }
-     </style>
-     <style type="text/css">
+      <style type="text/css">
       #pic {
        float: left; 
       }
@@ -60,24 +55,24 @@
       проверки пользовательского ввода в формы и создания анимации. Espresso Pages позиционировались как демоверсия,
       призванная помочь представить, что случится, если в браузер будет внедрён язык Cmm. Работали они только в
       16-битовом Netscape Navigator под управлением Windows[16].</p>
-      
       <p>Самая первая реализация JavaScript была создана Бренданом Эйхом (англ. Brendan Eich) в компании Netscape, и с тех
       пор обновляется, чтобы соответствовать ECMA-262 Edition 5 и более поздним версиям. Этот движок называется
       SpiderMonkey и реализован на языке C/C++. Движок Rhino создан Норрисом Бойдом (англ. Norris Boyd) и реализован на
       языке Java. Как и SpiderMonkey, Rhino соответствует ECMA-262 Edition 5.
       </p>
    <p><a name="content"></a></p>
-   
-   <ol> Содержание:
-      <li><a href="#menu1">История</a></li>
-      <li><a href="#menu2">Семантика и синтаксис</a>
-         <ul>
-         <li><a href="#menu2">Семантика и синтаксис</a></li>
-         <li><a href="#menu2">Семантика и синтаксис</a></li>
-         </ul>
-      </li>
-      <li><a href="#menu3">Пример таблицы стилей</a></li>
-   </ol>
+   <div class="menu">
+      <ol> <strong> Содержание:</strong>
+         <li><a href="#menu1">История</a></li>
+         <li><a href="#menu2">Семантика и синтаксис</a>
+            <ul>
+            <li><a href="#menu2">Семантика и синтаксис</a></li>
+            <li><a href="#menu2">Семантика и синтаксис</a></li>
+            </ul>
+         </li>
+         <li><a href="#menu3">Пример таблицы стилей</a></li>
+      </ol>
+   </div>
    <h2 id="menu1">История</h2>
       <p>Перед Бренданом Эйхом, нанятым в компанию Netscape 4 апреля 1995 года[18], была поставлена задача внедрить язык
       программирования Scheme или что-то похожее в браузер Netscape. Поскольку требования были размыты, Эйха перевели в
@@ -135,9 +130,9 @@
 
    <p>
       Синтаксис языка JavaScript во многом напоминает синтаксис Си и Java, семантически же язык гораздо ближе к Self,
-      Smalltalk или даже Лиспу[32][42][Спецификация 2].
-
-      В JavaScript:
+      Smalltalk или даже Лиспу[32][42][Спецификация 2].</p>
+   <p>
+      В JavaScript:</p>
 
       все идентификаторы регистрозависимы,
       в названиях переменных можно использовать буквы, подчёркивание, символ доллара, арабские цифры,
@@ -252,7 +247,7 @@
          помощью конструкции
       <p>
          <div>
-         <pre style="padding-bottom: 50px;">
+         <pre>
             <span class="clgreen">&lt;body&gt;</span>
             <span class="clgreen">&lt;script</span> <span class="clgreen2">type=</span> <span class="clred">"application/javascript"</span><span class="clgreen2">src=</span> <span class="clred">"http://Путь_к_файлу_со_скриптом"&gt;</span> 
             <span class="clgreen">&lt;/script&gt;</span>
