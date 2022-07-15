@@ -1,12 +1,15 @@
 body {
     width: 1000px;
     margin: 0 auto;
+    background: url("../img/font.png");
+    background-color: #ffff00;
 }
 h1{
     height: 100px;
     font-size: 24px;
     color: rgb(175, 25, 25);
     margin-left: 10%;
+    background-color: #fff;
        
 }
 .menu{
@@ -26,7 +29,7 @@ ul {
     top: 10px;
 }
 #text{
-    background: #e3e7f5;
+    background: #f2f4fa;
 } 
 .clgreen{ color: #25a30b;}
 .clred{ color: #f00;}
