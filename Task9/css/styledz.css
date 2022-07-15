@@ -11,7 +11,8 @@ div{
     height: 400px;
     position: absolute;
     top: calc(50% - 200px);
-    left: calc(50% - 200px);
+    left: calc(50% - 400px);
+    border: #fff;
 }
 .header{
     width: 1000px;
