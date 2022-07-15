@@ -1,0 +1,93 @@
+div{
+    position: relative;
+    float: left;
+    text-align: center;
+    line-height: 100px;
+    color: #fff;
+    font-size: 30px;
+}
+.main{
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: calc(50% - 200px);
+    left: calc(50% - 200px);
+}
+.header{
+    width: 1000px;
+    height: 400px;
+}
+.top-l{
+    width: 400px;
+    height: 400px;
+    background: darkgreen;
+}
+.top-c1{
+    width: 200px;
+}
+.top-center1{
+    width: 200px;
+    height: 200px;
+    background: rgb(35, 0, 100);
+}
+
+.content{
+    width: 1000px;
+    height: 600px;
+}
+.menul{
+    width: 400px;
+    height: 600px;
+}
+.menu1-menu1{
+    width: 400px;
+    height: 200px;
+    background: rgb(100, 85, 0);
+}
+.posts{
+    width: 600px;
+    height: 600px;
+}
+.post1{
+    width: 400px;
+    height: 400px;
+    background: rgb(0, 0, 0);
+}
+.post2{
+    width: 200px;
+    height: 200px;
+    background: rgb(2, 0, 100);
+}
+
+
+.bottom{
+    width: 1000px;
+    height: 400px;
+}
+.contacts{
+    width: 400px;
+    
+}
+
+.symbol{
+    width: 400px;
+    height: 400px;
+    background: rgb(250, 0, 0);
+}
+.bottom-social{
+    width: 200px;
+    height: 400px;
+    background: rgb(0, 0, 0);
+}
+.contacts-dir{
+    width: 400px;
+    height: 200px;
+    background: rgb(172, 172, 196);
+}
+.contacts-buh{
+    width: 200px;
+    height: 200px;
+    background: rgb(2, 0, 100);
+}
+
+
