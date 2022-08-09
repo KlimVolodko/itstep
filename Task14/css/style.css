@@ -27,16 +27,18 @@
     display: flex;
 }
 .image{
-    width: 100%;
+    width: 25%;
     height: 287px;
 }
 .image1{
     background: url(../img/24f25b480b4e49ccb7c463893d04da4d.png);
     background-position: 50% 50%;
-}
+    width: 25%;
+} 
 .image2{
     background: url(../img/60daec789521593f3dd91cb1bb3d7d60.png);
     background-position: 50% 50%;
+    
 }
 .image3{
     background: url(../img/289d0988df9ccafe391c5a296f327b0e.png);
