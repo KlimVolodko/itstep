@@ -1,0 +1,114 @@
+body {
+    background: #F6F4D2;
+  }
+a{
+    position: fixed;
+    display: block;
+    color: #fff;
+    background: black;
+    padding: 15px 20px;
+    top: 40px;
+}
+.start{
+    left: calc(50% - 150px);
+}
+.end{
+    left: calc(50% + 30px);
+}
+
+  .box {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 200px;
+    height: 300px;
+  }
+  .head {
+    position: absolute;
+    top: 30px;
+    width: 250px;
+    height: 140px;
+    background: #000000;
+    border-radius: 90%;
+    border-top-left-radius: 180px;
+    border-bottom-right-radius: 230px;
+  }
+  
+
+
+
+
+
+.lapka1 {
+    position: relative;
+    width: 3em; 
+    height: 3em; 
+    margin-top: 16em;
+    background: #D5DEE9;
+    border-width: 0.25em;
+    border-style: solid;
+    border-color: #6E839E;
+    border-radius: 50% 50% 0 0;
+    }
+    .lapka1:before, 
+    .lapka1:after {
+    content: "";
+    position: absolute; 
+    bottom: -0.25em;
+    background: inherit;
+    border-width: 0.25em;
+    border-style: solid;
+    border-color: #6E839E;
+    }
+    .lapka1:before {
+    left: 80%; 
+    width: 60%; 
+    height: 60%;
+    border-left: none;
+    border-radius: 50% 50% 50% 0;
+    }
+    .lapka1:after {
+    right: 80%;
+    width: 80%; 
+    height: 80%;
+    border-right: none;
+    border-radius: 50% 50% 0;
+    }
+    .lapka2 {
+        position: relative;
+        width: 3em; 
+        height: 3em; 
+        margin: 8em;
+        background: #D5DEE9;
+        border-width: 0.25em;
+        border-style: solid;
+        border-color: #6E839E;
+        border-radius: 50% 50% 0 0;
+        }
+        .lapka2:before, 
+        .lapka2:after {
+        content: "";
+        position: absolute; 
+        bottom: -0.25em;
+        background: inherit;
+        border-width: 0.25em;
+        border-style: solid;
+        border-color: #6E839E;
+        }
+        .lapka2:before {
+        left: 80%; 
+        width: 60%; 
+        height: 60%;
+        border-left: none;
+        border-radius: 50% 50% 50% 0;
+        }
+        .lapka2:after {
+        right: 80%;
+        width: 80%; 
+        height: 80%;
+        border-right: none;
+        border-radius: 50% 50% 0;
+        }
