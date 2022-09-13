@@ -1,0 +1,140 @@
+html,
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #333333;
+}
+
+html, body {
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  width: 1160px;
+  position: relative;
+  margin: 0 auto;
+}
+
+div {
+  background-image: url();
+  background-repeat: repeat-x;
+}
+
+header {
+  background-image: url(../img/Cover.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.top-row {
+  padding-top: 50px;
+}
+.top-row .container {
+  display: flex;
+  justify-content: space-between;
+}
+.top-row .header-main {
+  display: flex;
+  align-items: center;
+}
+.top-row .menu ul {
+  list-style: none;
+  display: flex;
+  margin-bottom: 0;
+}
+.top-row .menu ul li {
+  margin-right: 50px;
+}
+.top-row .menu ul li a {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #333333;
+  text-decoration: none;
+}
+.top-row .menu ul li a:hover {
+  color: #FFCD42;
+}
+.top-row .langs ul {
+  list-style: none;
+  display: flex;
+  margin-bottom: 0;
+}
+.top-row .langs ul li {
+  margin-left: 10px;
+}
+.top-row .langs ul li a {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #333333;
+  text-decoration: none;
+}
+.top-row .langs ul li a:hover {
+  color: #FFCD42;
+}
+.top-row .langs ul li.active a {
+  color: #FFCD42;
+}
+
+.row {
+  padding: 200px 0 100px;
+}
+
+.title {
+  width: 55%;
+}
+
+.title__cover {
+  background-color: #FFCD42;
+  padding: 38px 49px;
+  margin-bottom: 11px;
+}
+.title__cover h1 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 49px;
+  text-transform: uppercase;
+  color: #333333;
+}
+
+.title__cta {
+  background-color: #333333;
+  padding: 11px;
+  display: flex;
+}
+
+.title__cta__text {
+  display: flex;
+  align-items: center;
+}
+.title__cta__text p {
+  color: #FFFFFF;
+  margin-bottom: 0;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 0 28px;
+}
+
+.title__cta__button {
+  display: flex;
+  align-items: stretch;
+}
+.title__cta__button a {
+  display: block;
+  width: 230px;
+  color: #333333;
+  background: #FFFFFF;
+  padding: 21px 41px;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  align-items: stretch;
+}
+.title__cta__button a:hover {
+  background-color: #FFCD42;
+  color: #FFFFFF;
+  align-items: stretch;
+}/*# sourceMappingURL=style.css.map */

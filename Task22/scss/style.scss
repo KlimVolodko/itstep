@@ -1,0 +1,32 @@
+.main-menu{
+    width: 90px;
+    top: 90px;
+    left: 313px;
+    opacity: 50%;
+    
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    align-items: center;
+    margin-left: 15px;
+ 
+    &__glass {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            padding: 10px 15px 8px;
+            gap: 10px;
+    
+            position: absolute;
+            width: 270px;
+            height: 40px;
+            left: 987px;
+            top: 25px;
+    
+    
+            background: #00868A;
+        }
+    
+}
+
