@@ -1,0 +1,46 @@
+h1 {
+  font-family: "MULISH";
+  font-size: 80px;
+  line-height: 20px;
+  font-weight: bold;
+}
+
+h2 {
+  font-family: "MULISH";
+  font-size: 40px;
+  line-height: 20px;
+  font-weight: bold;
+}
+
+h3 {
+  font-family: "MULISH";
+  font-size: 24px;
+  line-height: 20px;
+  font-weight: bold;
+}
+
+.container {
+  width: 100%;
+  position: relative;
+  margin: 0 auto;
+}
+@media (min-width: 440px) {
+  .container {
+    width: 400px;
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (min-width: 1280px) {
+  .container {
+    width: 1180px;
+  }
+}
+@media (min-width: 1920px) {
+  .container {
+    width: 1780px;
+  }
+}/*# sourceMappingURL=style.css.map */
