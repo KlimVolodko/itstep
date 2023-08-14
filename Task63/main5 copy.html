@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="app"></div>
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <script type="text/babel">
+            function Calculator(){
+                const [x, setX] = React.useState(0);
+                const [y, setY] = React.useState(0);
+                const [hobby, setHobby] = React.useState("0");
+                
+                function calculate(event){
+                    let inputX = document.getElementById("x");
+                    let inputY = document.getElementById("y");
+
+                    setX(+inputX.value);
+                    setY(+inputY.value);
+                    
+                }
+
+                function handleChangeHobby(event){
+                setHobby(event.target.value);
+            }
+                return (
+                    <div>
+                        <input type="text" name="x" id="x" onChange={calculate}/>
+                        <input type="text" name="y" id="y" onChange={calculate}/>
+                        
+                        <select name="hobby" id="hobby" value={hobby} onChange={handleChangeHobby}>
+                        <option value="Программирование">функция</option>
+                        <option value={x+y}>сложить</option>
+                        <option value={x-y}>отнять</option>
+                        <option value={x*y}>умножить</option>
+                        <option value={x/y}>делить</option>
+                        </select>
+                    <div>
+                        {hobby}
+                    </div>
+
+
+                            
+                    </div>
+
+                );
+            }
+
+            ReactDOM.createRoot(document.getElementById("app"))
+                .render(
+                    <Calculator />
+                );
+    </script>
+</body>
+</html>

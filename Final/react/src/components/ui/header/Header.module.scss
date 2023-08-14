@@ -1,0 +1,129 @@
+.header{
+    height: 70px;
+    width: 100%;
+    background-color: #202020;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+
+}
+
+.hed{
+    height: 70px;
+}
+
+
+.title{
+    display: flex;
+    margin-left: 20px;
+    font-size: 2.5em;
+    align-items: center;
+    font-style: oblique;
+span{
+    color:yellow;
+    font-style: oblique;
+    font-weight: 700;
+}    
+}
+
+
+
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 20px;
+    font-size: 1.3em;
+    li{
+        margin: 0 20px;
+        cursor: pointer;
+    }
+    a{
+        color: #ffffff;
+    }
+
+    .tel_icon{
+        width: 30px;
+        height: 30px;
+        color: yellow;
+        padding-right: 5px;
+        padding-top: 3px;
+        text-align: center;
+        
+    }
+    .tel{
+        
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: yellow;
+        font-size: 1em;
+
+        @media (max-width: 768px) {        
+            display: none;                 
+        } 
+    }
+}
+
+.icon_menu{
+    display: none;
+    align-items: center;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.menu_mobile{
+    display: block;
+    position: absolute;
+    background-color: #ffffff;
+    z-index: 1;
+    right: 50px;
+    top: 20px;
+    color: black;
+    border: 1px solid #202020;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 150%;
+
+    li{
+        padding: 0 5px;
+        border-radius: 5px;
+    }
+
+    li:hover{
+        cursor: pointer;
+        background-color: #20202036;
+        
+    }
+}
+
+.menu_mobile_close{
+    display: none;
+}
+
+@media (min-width: 560px) {
+    .menu_mobile{
+        display: none;
+    }
+}
+
+@media (max-width: 560px) {
+    .menu{
+        display: none;
+    }
+
+    .icon_menu{
+        display: flex;
+    }
+}
+
+@media (max-width: 1000px) {
+    .tel_icon{
+      display: none;
+    }
+  }
+

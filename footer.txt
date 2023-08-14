@@ -1,0 +1,85 @@
+<footer>
+        <div class="container">
+            <div class="footer">
+                <div class="footer__summary">
+                    <div class="footer__summary__logo">
+                        <div class="footer__summary__logo_img">
+                            <a href="#"><img src="./img/SparkIT.svg" alt="логотип"></a>
+                        </div>
+                    </div>
+                    <div class="footer__summary__product">
+                        <div class="footer__summary__product__company">
+                            <div class="footer__summary__product__company_header">
+                                <h3>О компании</h3>
+                            </div>
+                            <div class="footer__summary__product__company_list">
+                                <ul>
+                                    <li><a href="#">Портфолио</a></li>
+                                    <li><a href="#">Услуги</a></li>
+                                    <li><a href="#">О нас</a></li>
+                                    <li><a href="#">Блог</a></li>
+                                    <li><a href="#">Контакты</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="footer__summary__product__services">
+                            <div class="footer__summary__product__services_header">
+                                <h3>Услуги</h3>
+                            </div>
+                            <div class="footer__summary__product__services_list">
+                                <ul>
+                                    <li><a href="#">Архитектура приложений</a></li>
+                                    <li><a href="#">WEB разработка</a></li>
+                                    <li><a href="#">UX / UI дизайн</a></li>
+                                    <li><a href="#">Бизнес анализ</a></li>
+                                    <li><a href="#">2D / 3D анимация</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>    
+                </div>
+                <div class="footer__connection">
+                    <div class="footer__connection__contacts">
+                        <div class="footer__connection__contacts_header">
+                            <h3>Связаться с нами</h3>
+                        </div>
+                        <div class="footer__connection__contacts__phone">
+                            <div class="foote__connectionr__contacts__phone_picture">
+                                <img src="./img/bi_phoneW.png" alt="телефон">
+                            </div>
+                            <div class="footer__connection__contacts__phone_number">
+                                <a href="tel:+33775558724">(+33)7 75 55 87 24</a>
+                            </div>
+                        </div>
+                        <div class="footer__connection__contacts__address">
+                            <div class="footer__connection__contacts__address_picture">
+                                <img src="./img/bi_pin-mapW.png" alt="карта">
+                            </div>
+                            <address>2118 Thornridge Cir. Syracuse, <br>Connecticut 35624</address>
+                        </div>
+                        <div class="footer__connection__contacts__email">
+                            <div class="footer__connection__contacts__email_picture">
+                                <img src="./img/eva_email-outlineW.png" alt="конверт">
+                            </div>
+                            <div class="footer__connection__contacts__email_content">
+                                <a href="mailto:SpakIT@gmail.com">SpakIT@gmail.com</a>
+                            </div>
+                        </div>
+                        <div class="footer__connection__contacts_networks">
+                            <ul>
+                                <li><a href="#" class="telegram"><img src="./img/icon_telegram.png" alt="телеграм"></a></li>
+                                <li><a href="#" class="dribbble"><img src="./img/icon_dribbble.png" alt="дрибл"></a></li>
+                                <li><a href="#" class="behance"><img src="./img/icon_behance.png" alt="беханс"></a></li>
+                                <li><a href="#" class="linkedin"><img src="./img/icon_linkedin.png" alt="линкедин"></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>    
+            </div>   
+        </div>
+        <div class="copyright">
+            <div class="copyright_text">
+                © 2007-2022 sparkit. All Rights Reserved. Privacy Policy.
+            </div>
+        </div>
+    </footer>
